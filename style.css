@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #97d9e1;
+}
+
+.frame {
+  font-size: 24px;
+  background-color: white;
+  max-width: 500px;
+  border-radius: 20px;
+  padding: 2%;
+  margin: 40px 20px 20px 20px;
+}
+
+button {
+  color: white;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  margin: 5px 5px;
+  box-shadow: 3px 3px 3px #cccccc;
+  font-size: 30px;
+  background-color: #3f4557;
+}
+
+button:active {
+  color: #f484a2;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  background: linear-gradient(145deg, #6e66f2, #f484a2);
+}
+
+.top {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.functionbox {
+  display: inline-block;
+}
+
+output {
+  font-size: 20px;
+  padding: 5px 8px;
+  color: white;
+  border-radius: 8px;
+  width: 180px;
+  height: 26px;
+  display: block;
+  background-color: #f484a2;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  box-shadow: 1px 2px 2px #b7c0c4;
+}
+
+.buttonclear {
+  margin-right: 10px;
+  margin-left: 0;
+  border-radius: 50px;
+}
+
+.operator {
+  background-color: #6e66f2;
+}
+
+@media screen and (min-width: 700px) {
+  button {
+    width: 90px;
+    height: 90px;
+  }
+  output {
+    width: 300px;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 40px;
+  }
+}
